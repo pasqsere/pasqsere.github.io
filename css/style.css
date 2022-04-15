@@ -1601,7 +1601,7 @@ hr {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position: top;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	padding-bottom: 30px;
 	height: 196px;
 }
