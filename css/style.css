@@ -938,6 +938,7 @@ hr {
 }
 .owl-controls {
 	text-align: center;
+	display: none !important;
 }
 .owl-pagination {
 	margin: 55px 0 0 0;
