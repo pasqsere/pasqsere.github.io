@@ -938,18 +938,22 @@ hr {
 }
 .owl-controls {
 	text-align: center;
-	display: none !important;
 }
+
+.owl-controls {
+	text-align: center;
+}
+
 .owl-pagination {
 	margin: 55px 0 0 0;
-	display: inline-block;
+	display: none;
 	padding: 0 22px;
 	position: relative;
 	height: 1px;
 }
 	
 .owl-pagination:before {
-	display:block;
+	display:none;
 	content: "";
 	width: 31px;
 	height: 17px;
@@ -957,7 +961,7 @@ hr {
 	position: absolute;
 }
 .owl-pagination:after {
-	display:block;
+	display:none;
 	content: "";
 	width: 8px;
 	right: 0;
