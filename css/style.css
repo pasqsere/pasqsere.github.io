@@ -1866,6 +1866,22 @@ hr {
 
 /*# 15. Responsive*/
 
+@media (min-width:  1024px){
+	.title1 {
+		font:66px Dancing Script;
+		/*color:  #Eab21b;*/
+		color:  #ffffff;
+		font-weight: 300;
+	}
+
+	.title2 {
+		font:59px Dancing Script;
+		/*color:  #Eab21b;*/
+		color:  #ffffff;
+		margin-top: 14px;
+	}
+}
+
 @media (max-width:992px){
 	.owl-controls {
 		margin: 0 0 20px 0
