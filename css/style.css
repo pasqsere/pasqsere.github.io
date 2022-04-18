@@ -456,7 +456,7 @@ hr {
 	margin:0;
 	width:100%;
 	z-index:4;
-	bottom:50px;
+	bottom:35px;
 }
 .player {
 	max-width: 320px;
@@ -1528,14 +1528,21 @@ hr {
 		font:300 20px/20px EB Garamond;
 	}
 	.title1 {
-		font:50px/50px Dancing Script;
+		font:46px Dancing Script;
 		/*color:  #Eab21b;*/
 		color:  #ffffff;
 		font-weight: 300;
 	}
 
+	.title2 {
+		font:39px Dancing Script;
+		/*color:  #Eab21b;*/
+		color:  #ffffff;
+		margin-top: 14px;
+	}
+
 	.title_main{
-		font-size: 80px !important;
+		/*font-size: 80px !important;*/
 		margin-bottom: 30px;
 		line-height: 1.2;
 	}
@@ -1543,11 +1550,6 @@ hr {
 	.title1_2 {
 		font:48px/50px Dancing Script;
 		margin-bottom: 20px;
-	}
-	.title2 {
-		font:700 56px/60px EB Garamond;
-		margin:0 0 13px 0;
-		letter-spacing: -1px
 	}
 	.title3 {
 		font:24px/32px Dancing Script;
